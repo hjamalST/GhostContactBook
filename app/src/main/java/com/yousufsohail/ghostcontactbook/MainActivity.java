@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         myRecyclerView.setHasFixedSize(true);
 
         mLayoutManager = new LinearLayoutManager(this);
-        mLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+        mLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         myRecyclerView.setLayoutManager(mLayoutManager);
 
         myAdapter = new MyAdapter(MockData.ITEMS);
